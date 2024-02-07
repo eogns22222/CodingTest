@@ -17,6 +17,7 @@ public class ObjectInputMain {
 		int[] arr = (int[]) ois.readObject();
 		String str = ois.readUTF();
 		Sample sample = (Sample) ois.readObject();
+		
 		System.out.println(map);
 		System.out.println(Arrays.toString(arr));
 		System.out.println(str);
