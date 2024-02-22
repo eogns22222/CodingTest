@@ -1,5 +1,6 @@
 package ch09.ex05;
 
+// 자릿수 더하기
 public class Solution {
 	public int solution(int n) {
 		int answer = 0;
