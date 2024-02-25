@@ -5,16 +5,13 @@ public class Main {
 	public static void main(String[] args) {
 
 		Solution sol = new Solution();
-		int result;
+		String result;
 		
-		result = sol.solution(6);
-		System.out.println("8==" +result);
+		result = sol.solution("01033334444");
+		System.out.println("*******4444==" +result);
 		
-		result = sol.solution(16);
-		System.out.println("4==" +result);
-		
-		result = sol.solution(626331);
-		System.out.println("-1==" +result);
+		result = sol.solution("027778888");
+		System.out.println("*****8888==" +result);
 		
 		
 	}
