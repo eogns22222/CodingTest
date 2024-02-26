@@ -1,4 +1,4 @@
-package ch09.ex17김서방;
+package coding02test23김서방;
 
 public class Main {
 

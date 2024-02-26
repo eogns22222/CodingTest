@@ -1,4 +1,4 @@
-package ch09.ex20문자열_내림차순;
+package coding02test24문자열_내림차순;
 
 import java.util.Arrays;
 

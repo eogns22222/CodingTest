@@ -1,4 +1,4 @@
-package ch09.ex19같은_숫자는_싫어;
+package coding02test25같은_숫자는_싫어;
 
 import java.util.Arrays;
 

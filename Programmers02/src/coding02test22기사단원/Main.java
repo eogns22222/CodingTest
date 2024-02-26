@@ -1,4 +1,4 @@
-package ch09.ex18기사단원;
+package coding02test22기사단원;
 
 public class Main {
 
