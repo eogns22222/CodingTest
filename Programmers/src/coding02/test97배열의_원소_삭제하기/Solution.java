@@ -7,10 +7,10 @@ class Solution {
         LinkedList<Integer> list = new LinkedList<Integer>();
         
         for (int i = 0; i < arr.length; i++) {
-        	list.add(arr[i]);
+        	list.add(arr[i]); // 미리 arr 의 i 번째를 저장
 			for (int j = 0; j < delete_list.length; j++) {
-				if(arr[i] == delete_list[j]) {
-					list.remove(list.indexOf(arr[i]));
+				if(arr[i] == delete_list[j]) { // 만약 delete_list 에서 꺼내 오는 값 중에 arr의 i 번째와 같다면
+					list.remove(list.indexOf(arr[i])); // 삭제
 				}
 			}
 		}

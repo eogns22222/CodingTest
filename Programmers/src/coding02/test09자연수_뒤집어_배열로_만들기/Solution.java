@@ -8,7 +8,7 @@ class Solution {
         
         while(n > 0) {
         	
-        	list.add((int) (n % 10));
+        	list.add((int) (n % 10)); // 나머지 : 5, 4, 3, 2, 1
         	n = n / 10;
         	
         }

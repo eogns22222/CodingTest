@@ -10,11 +10,11 @@ class Solution {
         ArrayList<String> list = new ArrayList<String>();
         
         for (int i = str.length - 1; i >= 0; i--) {
-			str2 = str[i] + str2;
-			list.add(str2);
+			str2 = str[i] + str2; // 단어의 뒷부분부터 합친다
+			list.add(str2); // 리스트에 계속 저장
 		}
         
-        Collections.sort(list);
+        Collections.sort(list); // 사전순으로 정렬
         String[] answer = new String[list.size()];
         for (int i = 0; i < answer.length; i++) {
 			answer[i] = list.get(i);
